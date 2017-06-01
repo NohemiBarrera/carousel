@@ -1,0 +1,30 @@
+.carousel-content{
+	display: none;	
+}
+.carousel-content.active {
+	display: block;
+}
+img{
+	width: 300px;
+	height: 200px;
+}
+.carousel{
+	text-align: center;
+}
+.container{
+	text-align: center;
+	margin-top: 20px;
+	background-color: #20b2aa;
+	width: 30%;
+	height: 350px;
+}
+button{
+	background-color: pink;
+}
+h1{
+	color: pink;
+}
+a{
+	color: pink;
+	font-size: 20px;
+}
