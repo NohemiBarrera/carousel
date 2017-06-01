@@ -10,13 +10,14 @@ img{
 }
 .carousel{
 	text-align: center;
+	margin-top: 50px;
 }
 .container{
 	text-align: center;
 	margin-top: 20px;
 	/*background-color: #20b2aa;*/
 	width: 30%;
-	height: 350px;
+	height: 542px;
 }
 button{
 	background-color: pink;
@@ -34,5 +35,11 @@ a{
 }
 header{
 	background-color: black;
-	height: 50opx;
+	height: 50px;
+}
+footer{
+	background-color: black;
+	height: 50px;
+	color: white;
+	text-align: center;
 }
