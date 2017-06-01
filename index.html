@@ -9,35 +9,48 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+
+	<header>
+		<ul class="nav nav-pills">
+		  <li role="presentation" class="pull-right"><a href="#">Messages</a></li>
+		  <li role="presentation" class="pull-right"><a href="#">Profile</a></li>
+		  <li role="presentation" class="pull-right"><a href="#">Home</a></li>
+		</ul>
+	</header>
+
 	<div class="container">
-		<div class="carousel col-md-12">
-			<h1>Carousel</h1>
-			<div data-slide="0" class="carousel-content active">
-				<span><a href="#" class="previous">&#60;</a></span>
-				<img src="img/gatito1.jpg" alt="imagen1">
-				<span><a href="#" class="previous">&#62;</a></span>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="carousel">
+					<h1>Los gatitos más bonitos</h1>
+					<div data-slide="0" class="carousel-content active">
+						<span><a href="#" class="previous">&#60;</a></span>
+						<img src="img/gatito1.jpg" alt="imagen1">
+						<span><a href="#" class="previous">&#62;</a></span>
+					</div>
+					<div data-slide="1" class="carousel-content">
+						<span><a href="#" class="previous">&#60;</a></span>
+						<img src="img/gatito2.jpg" alt="imagen2">
+						<span><a href="#" class="previous">&#62;</a></span>
+					</div>
+					<div data-slide="2" class="carousel-content">
+						<span><a href="#" class="previous">&#60;</a></span>
+						<img src="img/gatito3.jpg" alt="imagen3">
+						<span><a href="#" class="previous">&#62;</a></span>
+					</div>
+					<div data-slide="3" class="carousel-content">
+						<span><a href="#" class="previous">&#60;</a></span>
+						<img src="img/gatito4.jpg" alt="imagen4">
+						<span><a href="#" class="previous">&#62;</a></span>
+					</div>
+				</div>
+				<div class="controls">
+					<button type="button" data-target="0" class="control btn">Gatito 1</button>
+					<button type="button" data-target="1" class="control btn">Gatito 2</button>
+					<button type="button" data-target="2" class="control btn">Gatito 3</button>
+					<button type="button" data-target="3" class="control btn">Gatito 4</button>
+				</div>
 			</div>
-			<div data-slide="1" class="carousel-content">
-				<span><a href="#" class="previous">&#60;</a></span>
-				<img src="img/gatito2.jpg" alt="imagen2">
-				<span><a href="#" class="previous">&#62;</a></span>
-			</div>
-			<div data-slide="2" class="carousel-content">
-				<span><a href="#" class="previous">&#60;</a></span>
-				<img src="img/gatito3.jpg" alt="imagen3">
-				<span><a href="#" class="previous">&#62;</a></span>
-			</div>
-			<div data-slide="3" class="carousel-content">
-				<span><a href="#" class="previous">&#60;</a></span>
-				<img src="img/gatito4.jpg" alt="imagen4">
-				<span><a href="#" class="previous">&#62;</a></span>
-			</div>
-		</div>
-		<div class="controls">
-			<button type="button" data-target="0" class="control btn">Gatito 1</button>
-			<button type="button" data-target="1" class="control btn">Gatito 2</button>
-			<button type="button" data-target="2" class="control btn">Gatito 3</button>
-			<button type="button" data-target="3" class="control btn">Gatito 4</button>
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

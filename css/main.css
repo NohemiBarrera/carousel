@@ -14,7 +14,7 @@ img{
 .container{
 	text-align: center;
 	margin-top: 20px;
-	background-color: #20b2aa;
+	/*background-color: #20b2aa;*/
 	width: 30%;
 	height: 350px;
 }
@@ -24,7 +24,15 @@ button{
 h1{
 	color: pink;
 }
-a{
+a.previous, a.next{
 	color: pink;
-	font-size: 20px;
+	font-size: 30px;
+}
+a{
+	font-size: 1.5em;
+	color: pink;
+}
+header{
+	background-color: black;
+	height: 50opx;
 }
